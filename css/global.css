@@ -16,6 +16,8 @@
   --small: 14px;
   --medium: 16px;
   --large: 27px;
+  --logo-image: url("../images/bison_bison.png");
+  --logo-height: 96px
 }
 
 /* Base */
@@ -91,9 +93,10 @@ h4 {
 }
 .sr-header__logo {
   background-image: var(--logo-image);
-  height: 24px;
+  height: var(--logo-height);
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
 }
 .sr-legal-text {
@@ -617,5 +620,6 @@ input[type="number"]::-webkit-outer-spin-button {
     --small: 28px;
     --medium: 32px;
     --large: 44px;
+    --logo-height: 192px;
   }
 }
